@@ -1,0 +1,73 @@
+body{
+ background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(black,black);
+}
+.header {
+  background: url(Black.jpg )no-repeat; 
+background-size:cover; 
+  color: white;
+ overflow: 250px;
+  padding: 15px;
+
+  text-align: center;
+
+}
+
+.menu {
+ list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ background-color: #336;
+position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.main {
+width: 85%;
+float: left;
+padding: 15px;
+
+}
+nav {
+  float: left;
+}
+nav a {
+  display:inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  background-color:#336;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+h1 {
+
+  color: white;
+}
+h2 {
+  
+  color: white;
+}
+p {
+ 
+  color: white;
+}
+desc{
+color: white;
+}
